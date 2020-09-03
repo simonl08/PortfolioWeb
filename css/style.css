@@ -17,6 +17,10 @@ body{
     overflow:hidden;
 }
 
+.p {
+    overflow:visible;
+}
+
 /* ===================================Navigation bar */
 header li{
     display: inline-block;
@@ -119,6 +123,14 @@ a.projectanchor {
     padding:10px;
 }
 
+#skills .box p{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
 #skills .box img{
     width:90px;
 }
@@ -145,12 +157,19 @@ a.projectanchor {
     padding:10px;
 }
 
-
 #project .box img{
-    width:300px;
-    height:250px
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
 }
 
+#project .box p{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    overflow: hidden;
+    text-align: center;
+}
 /* =========================Work experience break off */
 #experiencesection{
     padding: 30px;
@@ -198,5 +217,6 @@ footer{
         float:none;
         text-align:center;
         width:100%;
+        padding: 20px;
     }
     }
